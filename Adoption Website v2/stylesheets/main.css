@@ -1,0 +1,61 @@
+﻿body {
+    background: #77ABFF;
+}
+
+.banner {
+    background: #4573BC;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 35px;
+}
+
+.sub_banner {
+    color: white;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 50px;
+}
+
+.grid_blocks {
+    color: white;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    padding: 20px;
+}
+
+.adoption_banner {
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons {
+    background-color: #77ABFF;
+    color: white;
+    border: solid 2px #4573BC;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    display: inline;
+    height: 90px;
+    width: 150px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
