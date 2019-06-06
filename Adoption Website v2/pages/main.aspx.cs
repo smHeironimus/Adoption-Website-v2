@@ -13,5 +13,20 @@ namespace Adoption_Website_v2.pages
         {
 
         }
+
+        protected void cat_button_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("cats.aspx");
+        }
+
+        protected void dog_button_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("dogs.aspx");
+        }
+
+        protected void small_a_button_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("small_animals.aspx");
+        }
     }
 }

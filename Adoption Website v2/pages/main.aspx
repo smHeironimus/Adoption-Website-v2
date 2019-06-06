@@ -34,9 +34,9 @@
             <h3>Local Pets Available for Adoption</h3>
         </div>
         <nav>
-            <asp:Button class="buttons" ID="cat_button" runat="server" Text="Cats" />
-            <asp:Button class="buttons" ID="dog_button" runat="server" Text="Dogs" />
-            <asp:Button class="buttons" ID="small_a_button" runat="server" Text="Small Animals" />
+            <asp:Button class="buttons" ID="cat_button" runat="server" Text="Cats" OnClick="cat_button_Click" />
+            <asp:Button class="buttons" ID="dog_button" runat="server" Text="Dogs" OnClick="dog_button_Click" />
+            <asp:Button class="buttons" ID="small_a_button" runat="server" Text="Small Animals" OnClick="small_a_button_Click" />
         </nav>
     </form>
 </body>

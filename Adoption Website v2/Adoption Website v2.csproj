@@ -67,17 +67,56 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\cats\Alucard.jpg" />
+    <Content Include="images\cats\Arty.jpg" />
+    <Content Include="images\cats\Barney.jpg" />
+    <Content Include="images\cats\heidi.JPG" />
+    <Content Include="images\cats\Leo.jpg" />
+    <Content Include="images\cats\Pepper.jpg" />
+    <Content Include="pages\cats.aspx" />
+    <Content Include="pages\dogs.aspx" />
     <Content Include="pages\main.aspx" />
+    <Content Include="pages\profile.aspx" />
+    <Content Include="pages\small_animals.aspx" />
+    <Content Include="stylesheets\animals.css" />
     <Content Include="stylesheets\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="pages\cats.aspx.cs">
+      <DependentUpon>cats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\cats.aspx.designer.cs">
+      <DependentUpon>cats.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\dogs.aspx.cs">
+      <DependentUpon>dogs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\dogs.aspx.designer.cs">
+      <DependentUpon>dogs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="pages\main.aspx.cs">
       <DependentUpon>main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="pages\main.aspx.designer.cs">
       <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\profile.aspx.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\profile.aspx.designer.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\small_animals.aspx.cs">
+      <DependentUpon>small_animals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\small_animals.aspx.designer.cs">
+      <DependentUpon>small_animals.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -91,7 +130,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
+    <Folder Include="images\dogs\" />
+    <Folder Include="images\small_animals\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
